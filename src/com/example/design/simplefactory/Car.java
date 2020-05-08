@@ -21,3 +21,23 @@ public abstract class Car {
 	public abstract void run();
 
 }
+
+class Audi extends Car {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("°ÂµÏ³µ");
+	}
+	
+}
+
+class Byd extends Car {
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("±ÈÑÇµÏ");
+	}
+
+}
