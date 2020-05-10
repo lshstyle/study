@@ -1,9 +1,6 @@
 package com.example.design.singleton;
 /**
- * 单例模式 :程序中只有一个对象被创建  创建型模式
- * 特点：1）类构造器私有
- *     2）持有自己类型的属性
- *     3）对外提供静态的获取实例的方法    
+ *     
  */
 
 import java.io.ObjectStreamException;

@@ -9,7 +9,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 /**
- * «≥∏¥÷∆  …Ó∏¥÷∆
+ * 
  * @author Administrator
  *
  */

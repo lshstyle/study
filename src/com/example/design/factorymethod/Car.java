@@ -17,7 +17,13 @@ public class Car {
 	public void setColor(String color) {
 		this.color = color;
 	}
+
+}
+
+class Audi extends Car {
 	
-	
+}
+
+class Byd extends Car {
 
 }

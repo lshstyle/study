@@ -1,10 +1,7 @@
 package com.example.design.decorate;
 
 /**
- * 1.抽象组件
- * 2.具体组件
- * 3.抽象组件装饰类
- * 4.具体装饰类
+ *
  * @author Administrator
  *
  */
