@@ -15,9 +15,9 @@ public class PersonHandler implements InvocationHandler{
 	@Override
 	public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
 		// TODO Auto-generated method stub
-		System.out.println("ִ��ǰ");
+		System.out.println("执行前");
 		Object obj = method.invoke(object, args);
-		System.out.println("ִ�к�");
+		System.out.println("执行后");
 		return obj;
 	}
 

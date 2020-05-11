@@ -1,5 +1,7 @@
 eclipse.preferences.version=1
-encoding//src/com/example/design/action/chainofReposibility/README.md=ISO-8859-1
+encoding//src/com/example/design/action/chainofReposibility/README.md=UTF-8
+encoding//src/com/example/design/create/abstractfactory/README.md=UTF-8
+encoding//src/com/example/design/create/prototype/README.md=UTF-8
 encoding//src/com/example/design/create/simplefactory/README.md=UTF-8
 encoding//src/com/example/design/create/singleton=UTF-8
 encoding//src/com/example/design/create/singleton/README.md=UTF-8
