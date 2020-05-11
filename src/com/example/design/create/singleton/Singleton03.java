@@ -1,7 +1,7 @@
 package com.example.design.create.singleton;
 
 /**
- * 静态内部类 在第一次调用getInstance方法时，虚拟机才加载Singleton03Holder，并初始化instance
+ * 闈欐�佸唴閮ㄧ被鍦ㄤ娇鐢ㄧ殑鏃跺�欐墠鍔犺浇
  * @author Administrator
  *
  */

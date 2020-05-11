@@ -46,7 +46,7 @@ class Coffee implements Drink{
 }
 
 /**
- * 抽象装饰�??
+ * 抽象装饰类
  * @author Administrator
  *
  */

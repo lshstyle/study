@@ -1,6 +1,6 @@
 package com.example.design.struct.flyweight;
 
-/**享元类 
+/** 
  * @author Administrator
  *
  */
@@ -36,8 +36,8 @@ class CorcreteChess implements ChessFlyWeight {
 	@Override
 	public void display(Coordinate c) {
 		// TODO Auto-generated method stub
-		System.out.println("棋子颜色:" + color);
-		System.out.println("棋子位置:(" + c.getX() + "," + c.getY()+")");
+		System.out.println("棰滆壊:" + color);
+		System.out.println("浣嶇疆:(" + c.getX() + "," + c.getY()+")");
 	}
 	
 }

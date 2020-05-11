@@ -24,16 +24,16 @@ public class Prototype {
 	public static void shallowCopy() throws CloneNotSupportedException {
 
 		Date date = new Date(1000000l);
-		Sheep sheep = new Sheep(date, "¶àÀû");
+		Sheep sheep = new Sheep(date, "å…‹éš†ç¾Š");
 		Sheep sheep2 = (Sheep)sheep.clone();
 		date.setTime(20000000l);
-		System.out.println("¿ËÂ¡Ç°:" + sheep);
-		System.out.println("¿ËÂ¡ºó:" + sheep2);
+		System.out.println("å…‹éš†å‰:" + sheep);
+		System.out.println("å…‹éš†å:" + sheep2);
 	}
 	
 	public static void deepCopy() throws Exception {
 		Date date = new Date(1000000l);
-		Sheep sheep = new Sheep(date, "¶àÀû");
+		Sheep sheep = new Sheep(date, "å…‹éš†ç¾Š");
 		ByteArrayOutputStream baos = new ByteArrayOutputStream();
 	
 		ObjectOutputStream oos = new ObjectOutputStream(baos);
@@ -42,8 +42,8 @@ public class Prototype {
 		ObjectInputStream ois = new ObjectInputStream(bais);
 		Sheep sheep2 = (Sheep) ois.readObject();
 		date.setTime(20000000l);
-		System.out.println("¿ËÂ¡Ç°:" + sheep);
-		System.out.println("¿ËÂ¡ºó:" + sheep2);
+		System.out.println("å…‹éš†å‰:" + sheep);
+		System.out.println("å…‹éš†å:" + sheep2);
 	}
 
 }

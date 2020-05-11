@@ -5,22 +5,22 @@ public class ThinkpadComputerBuilder implements ComputerBuilder{
 	@Override
 	public CPU builderCPU() {
 		// TODO Auto-generated method stub
-		System.out.println("构建联想CPU");
-		return new CPU("联想CPU");
+		System.out.println("鑱旀兂CPU");
+		return new CPU("鑱旀兂CPU");
 	}
 
 	@Override
 	public Keyboard builderKeyboard() {
 		// TODO Auto-generated method stub
-		System.out.println("构建联想Keyboard");
-		return new Keyboard("联想Keyboard");
+		System.out.println("鑱旀兂Keyboard");
+		return new Keyboard("鑱旀兂Keyboard");
 	}
 
 	@Override
 	public Mouse builderMouse() {
 		// TODO Auto-generated method stub
-		System.out.println("构建联想Mouse");
-		return new Mouse("联想Mouse");
+		System.out.println("鑱旀兂Mouse");
+		return new Mouse("鑱旀兂Mouse");
 	}
 
 }

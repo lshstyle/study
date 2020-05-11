@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * 享元工厂类
+ * 
  * @author Administrator
  *
  */

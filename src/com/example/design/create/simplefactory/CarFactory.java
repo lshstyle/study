@@ -3,9 +3,9 @@ package com.example.design.create.simplefactory;
 public class CarFactory {
 
 	public static Car creatCar(String name) {
-		if ("°ÂµÏ".equals(name)) {
+		if ("å¥¥è¿ª".equals(name)) {
 			return new Audi();
-		} else if ("±ÈÑÇµÏ".equals(name)) {
+		} else if ("æ¯”äºšè¿ª".equals(name)) {
 			return new Byd();
 		} else {
 			return null;

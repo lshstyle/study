@@ -10,7 +10,7 @@ class LuxuryTyre implements Tyre {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		System.out.println("ÅÜµÃ¿ì");
+		System.out.println("é«˜æ¡£è½®èƒ");
 	}
 	
 }
@@ -20,7 +20,7 @@ class LowTyre implements Tyre {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		System.out.println("ÅÜµÃÂı");
+		System.out.println("ä½æ¡£è½®èƒ");
 	}
 	
 }

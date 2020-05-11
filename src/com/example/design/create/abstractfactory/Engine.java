@@ -10,7 +10,7 @@ class LuxuryEngine implements Engine {
 	@Override
 	public void start() {
 		// TODO Auto-generated method stub
-		System.out.println("Æô¶¯¿ì");
+		System.out.println("é«˜æ¡£å‘åŠ¨æœº");
 	}
 	
 }
@@ -21,7 +21,7 @@ class LowEngine implements Engine {
 	@Override
 	public void start() {
 		// TODO Auto-generated method stub
-		System.out.println("Æô¶¯Âı");
+		System.out.println("ä½æ¡£å‘åŠ¨æœº");
 	}
 	
 }

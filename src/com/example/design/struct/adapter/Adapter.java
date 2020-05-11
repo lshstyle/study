@@ -1,5 +1,10 @@
 package com.example.design.struct.adapter;
 
+/**
+ * 适配器
+ * @author Administrator
+ *
+ */
 public class Adapter implements Target{
 	private Adaptee adaptee;
 	

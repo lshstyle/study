@@ -1,7 +1,7 @@
 package com.example.design.create.factorymethod;
 
 /**
- * ���幤�������Ĺ����ӿڣ��ɾ����������ʵ�������µĲ�Ʒֻ��Ҫ�����µĹ������࣬���Ͽ���ԭ��
+ * 定义工厂方法的公共接口，由具体子类完成实例化，新的产品只需要添加新的工厂子类，符合开闭原则
  * @author Administrator
  *
  */

@@ -1,13 +1,13 @@
 package com.example.design.struct.adapter;
 
 /**
- * 被适配的类
+ * 琚�傞厤鐨勭被
  * @author Administrator
  *
  */
 public class Adaptee {
 
 	public void request() {
-		System.out.println("完成客户请求需要的功能");
+		System.out.println("usb杞琾s/2鎴愬姛");
 	}
 }

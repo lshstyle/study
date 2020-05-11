@@ -7,8 +7,8 @@ public class Client {
 		// TODO Auto-generated method stub
 
 		ChessFlyWeightFactory factory = new ChessFlyWeightFactory();
-		ChessFlyWeight chess1 = factory.getChess("ºÚÉ«");
-		ChessFlyWeight chess2 = factory.getChess("ºÚÉ«");
+		ChessFlyWeight chess1 = factory.getChess("é»‘è‰²");
+		ChessFlyWeight chess2 = factory.getChess("é»‘è‰²");
 		chess1.display(new Coordinate(10, 20));
 		chess2.display(new Coordinate(20, 20));
 		

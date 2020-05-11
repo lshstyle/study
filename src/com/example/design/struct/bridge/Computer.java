@@ -22,7 +22,7 @@ class PC extends Computer {
 	
 	public void sale() {
 		super.sale();
-		System.out.println("ÀàĞÍ:Ì¨Ê½»ú");
+		System.out.println("ç±»å‹:Ì¨å°å¼æœº");
 	}
 	
 }
@@ -37,7 +37,7 @@ class Pad extends Computer {
 	
 	public void sale() {
 		super.sale();
-		System.out.println("ÀàĞÍ:Æ½°åµçÄÔ");
+		System.out.println("ç±»å‹:å¹³æ¿ç”µè„‘");
 	}
 	
 }

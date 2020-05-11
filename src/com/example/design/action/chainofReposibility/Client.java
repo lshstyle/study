@@ -3,11 +3,11 @@ package com.example.design.action.chainofReposibility;
 public class Client {
 
 	public static void main(String[] args) {
-		Leader director = new Director("ÀîÖ÷¹Ü"); 
-		Leader manager = new Manager("Àî¾­Àí");
+		Leader director = new Director("æä¸»ç®¡"); 
+		Leader manager = new Manager("æç»ç†");
 		
 		director.setNextLeader(manager);
-		LeaveRequest request = new LeaveRequest("Ğ¡Íõ", 8, "»Ø¼Ò");
+		LeaveRequest request = new LeaveRequest("å°æ", 8, "å›å®¶");
 		director.aduit(request);
 	}
 }

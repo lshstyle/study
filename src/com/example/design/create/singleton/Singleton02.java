@@ -1,7 +1,7 @@
 package com.example.design.create.singleton;
 
 /**
- * 饿汉模式  线程安全 但不能延迟加载，类初始化创建对象，占用资源
+ * 楗挎眽妯″紡
  * @author Administrator
  *
  */

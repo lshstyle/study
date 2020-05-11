@@ -36,8 +36,8 @@ class Director extends Leader {
 		// TODO Auto-generated method stub
 		
          if (request.getLeavDays()<3) {
-        	 System.out.println("Ô±¹¤:" + request.getName() + " Çë¼ÙÌìÊý:" + 
-                 request.getLeavDays() + " Çë¼ÙÔ­Òò:" + request.getReason());
+        	 System.out.println("Ô±ï¿½ï¿½:" + request.getName() + " ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½:" + 
+                 request.getLeavDays() + " ï¿½ï¿½ï¿½Ô­ï¿½ï¿½:" + request.getReason());
          } else {
         	 this.getNextLeader().aduit(request);
          }
@@ -58,11 +58,11 @@ class Manager extends Leader {
 		// TODO Auto-generated method stub
 		
          if (request.getLeavDays()<10) {
-        	 System.out.println("Ô±¹¤:" + request.getName() + " Çë¼ÙÌìÊý:" + 
-                 request.getLeavDays() + " Çë¼ÙÔ­Òò:" + request.getReason());
-        	 System.out.println("Ö÷¹Ü:" + this.name + " Åú×¼!!!");
+        	 System.out.println("å‘˜å·¥:" + request.getName() + " è¯·å‡å¤©æ•°:" + 
+                 request.getLeavDays() + " è¯·å‡åŽŸå› :" + request.getReason());
+        	 System.out.println("å®¡æ‰¹äºº:" + this.name + " åŒæ„!!!");
          } else {
-        	 System.out.println("¹¤ÆÚÔÚ¼´£¬²»ÔÊÐíÇë³¤¼Ù");
+        	 System.out.println("é¡¹ç›®ç´§ä»»åŠ¡é‡ï¼Œä¸å…è®¸è¯·å‡æ—¶é—´å¤ªé•¿");
          }
 	}
 	

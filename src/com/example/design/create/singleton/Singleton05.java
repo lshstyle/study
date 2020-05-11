@@ -1,7 +1,7 @@
 package com.example.design.create.singleton;
 
 /**
- * 枚举单例模式
+ * 鏋氫妇妯″紡
  * @author Administrator
  *
  */

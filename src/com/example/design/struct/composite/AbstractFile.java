@@ -20,7 +20,7 @@ class ImageFile implements AbstractFile {
 	@Override
 	public void killVirus() {
 		// TODO Auto-generated method stub
-		System.out.println("图片文件:" + name + " 查杀");
+		System.out.println("鍥剧墖:" + name + " 鏌ユ潃");
 	}
 	
 	
@@ -37,7 +37,7 @@ class VideoFile implements AbstractFile {
 	@Override
 	public void killVirus() {
 		// TODO Auto-generated method stub
-		System.out.println("音频文件:" + name + " 查杀");
+		System.out.println("瑙嗛:" + name + " 鏌ユ潃");
 	}
 	
 }
@@ -53,7 +53,7 @@ class TextFile implements AbstractFile {
 	@Override
 	public void killVirus() {
 		// TODO Auto-generated method stub
-		System.out.println("文本文件:" + name + " 查杀");
+		System.out.println("鏂囨湰:" + name + " 鏌ユ潃");
 	}
 	
 }
@@ -71,7 +71,7 @@ class Folder implements AbstractFile {
 	@Override
 	public void killVirus() {
 		// TODO Auto-generated method stub
-		System.out.println("文件夹:" + name + " 查杀");
+		System.out.println("锟侥硷拷锟斤拷:" + name + " 锟斤拷杀");
 		
 		for (AbstractFile f : list) {
 			f.killVirus();

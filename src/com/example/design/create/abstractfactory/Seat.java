@@ -10,7 +10,7 @@ class LuxurySeat implements Seat {
 	@Override
 	public void use() {
 		// TODO Auto-generated method stub
-		System.out.println("坐着舒服");
+		System.out.println("楂樻。搴ф");
 	}
 	
 }
@@ -20,7 +20,7 @@ class LowSeat implements Seat {
 	@Override
 	public void use() {
 		// TODO Auto-generated method stub
-		System.out.println("坐着不舒服");
+		System.out.println("浣庢。搴ф");
 	}
 	
 }

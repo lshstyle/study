@@ -8,7 +8,7 @@ class Lenovo implements Brand {
 	@Override
 	public void sale() {
 		// TODO Auto-generated method stub
-		System.out.println("品牌:联想");
+		System.out.println("鍝佺墝:鑱旀兂");
 	}
 	
 }
@@ -18,7 +18,7 @@ class Dell implements Brand {
 	@Override
 	public void sale() {
 		// TODO Auto-generated method stub
-		System.out.println("品牌:戴尔");
+		System.out.println("鍝佺墝:鎴村皵");
 	}
 	
 }

@@ -7,7 +7,7 @@ import java.io.ObjectStreamException;
 
 /**
  *  
- *  Ë«ÖØ¼ìËøÄ£Ê½£ºÏß³Ì°²È« ÑÓ³Ù³õÊ¼»¯
+ * åŒé‡æ£€é”
  * @author Administrator
  *
  */
@@ -15,24 +15,24 @@ public class Singleton01 {
 	
 	
 	private Singleton01() {
-		//·ÀÖ¹·´Éä
+		//é˜²æ­¢åå°„
 		if(instance!=null){
 			throw new RuntimeException();
 		}
 	}
 	
 	/**
-	 * Ìí¼Óvolatile,·ÀÖ¹ÔÚnew µ½³õÊ¼»¯¹ı³ÌÖĞµÄÖ¸ÁîÖØÅÅ
+	 * volatile é˜²æ­¢æŒ‡ä»¤é‡æ’
 	 */
 	private static volatile Singleton01 instance;
 	
 	public static Singleton01 getInstance() {
-		//µÚÒ»ÖØÊÇÎªÁËÅĞ¶ÏÊÇ·ñĞèÒª¼ÓËø
+		//åˆ¤æ–­æ˜¯å¦éœ€è¦åŠ é”
 		if (null != instance) {
 			return instance;
 		}
 		synchronized (Singleton01.class) {
-			//µÚ¶şÖØÊÇÎªÁËÅĞ¶ÏÊÇ·ñĞèÒªÊµÀı»¯
+			//åˆ¤æ–­æ˜¯å¦éœ€è¦å®ä¾‹åŒ–
 			if (null == instance) {
 				instance = new Singleton01();
 			}
@@ -40,12 +40,12 @@ public class Singleton01 {
 		return instance;
 	}
 	
-	//·ÀÖ¹·´ĞòÁĞ»¯
+	//é˜²æ­¢ååºåˆ—åŒ–
 	private Object readResolve() throws ObjectStreamException {
 		return instance;
 	}
 	
-	//·ÀÖ¹¿ËÂ¡
+	//é˜²æ­¢å…‹éš†
 	public Object clone() {
 		return instance;
 	}

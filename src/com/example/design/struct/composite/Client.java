@@ -5,12 +5,12 @@ public class Client {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		Folder folder = new Folder("ÎÒµÄÊÕ²Ø");
+		Folder folder = new Folder("æˆ‘çš„æ”¶è—");
 		AbstractFile image = new ImageFile("abc.jps");
 		AbstractFile text = new TextFile("123.text");
 		
-		Folder folder1 = new Folder("Ğ¡Ëµ");
-		AbstractFile text1 = new TextFile("Ğ¦°Á½­ºş");
+		Folder folder1 = new Folder("æ–‡ç« ");
+		AbstractFile text1 = new TextFile("ä¸€ç¯‡æ—¥è®°");
 		folder.add(image);
 		folder.add(text);
 		folder.add(folder1);

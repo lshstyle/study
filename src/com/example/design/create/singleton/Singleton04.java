@@ -1,8 +1,7 @@
 package com.example.design.create.singleton;
 
 /**
- * 懒汉模式
- * 线程不安全
+ * 鎳掓眽妯″紡
  * @author Administrator
  *
  */

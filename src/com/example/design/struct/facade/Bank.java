@@ -10,7 +10,7 @@ class BankOfChina implements Bank {
 	@Override
 	public void openAccount() {
 		// TODO Auto-generated method stub
-		System.out.println("ÖĞ¹úÒøĞĞ¿ª»§");
+		System.out.println("é“¶è¡Œå¼€æˆ·");
 	}
 	
 }
@@ -25,7 +25,7 @@ class SZTaxOffice implements TaxOffice {
 	@Override
 	public void tax() {
 		// TODO Auto-generated method stub
-		System.out.println("°ìÀíË°ÎñµÇ¼Ç");
+		System.out.println("åŠç†ç¨åŠ¡è®¸å¯");
 	}
 	
 }
